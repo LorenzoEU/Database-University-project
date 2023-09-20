@@ -9,5 +9,5 @@ The constraints of the ER-Schema are listed in **"Constraints"** file. Only chec
 
 
 Relational Schema is easily viewable in the **"DataGrip"** file.
-Relational Schema is implemented and populated in **"2.4 SchemaPopolato.sql"** file. In that file there are also the requested queries.
+Relational Schema is implemented and populated (with fantasy data) in **"2.4 SchemaPopolato.sql"** file. In that file there are also the requested queries.
 
