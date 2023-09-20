@@ -1,0 +1,70 @@
+#ENG
+
+● A school must focus on three species. (TRIGGER)
+● Each group should contain 20 replicas. (TRIGGER)
+● In the case of biomonitoring, the replicates of the control group should be the
+same number as those in the group for which we want to monitor environmental stress
+and a group subjected to environmental stress will be linked to at most one control group.
+control group. (TRIGGER)
+● If the school is funded by a project, we want to memorise whether the person is the
+contact person and/or a participant in the project from which the funding is derived. (TRIGGER)
+● Tool(ToolType) can be 'Arduino' or 'Sensor'; (CHECK)
+● Plant(Exposure) can be 'Sun' or 'Mid-shade' or 'Shade'; (CHECK)
+● Group(Purpose) can be 'Phytoboning' or 'Biomonitoring'; (CHECK)
+● Inserter in Detection is only present if it is a Person other than the Detector; (TRIGGER)
+● IdReplica uniquely identifies a specific plant within the project.
+● IdSensor uniquely identifies a specific sensor within the project.
+● GroupId uniquely identifies a specific group within the project.
+● SurveyCode uniquely identifies a survey within the project.
+
+
+● PercLeavesDamaged must be a decimal number between 0 and 1.
+● Moisture must be a decimal number between 0 and 1, and PH is a decimal
+between 0 and 14.
+● CoordNorth shall be a decimal between -90 and 90 and CoordSouth a decimal between
+between -180 and 180.
+● IdReplica must respect the syntax 'XY' where X is the letter P and Y a whole number.
+● IdSensor must respect the syntax 'XY' where X is the letter S and Y a whole number.
+● GroupId must respect the syntax 'XY' where X is the letter G and Y a whole number.
+●DetectorCode must respect the syntax 'XY' where X is the letter R and Y a
+whole number.
+● Soil may take the values 'Vessel' or 'Soil'. (CHECK)
+
+
+
+#ITA
+
+● Una scuola deve concentrarsi su tre specie. (TRIGGER)
+● Ogni gruppo dovrebbe contenere 20 repliche. (TRIGGER)
+● In caso di biomonitoraggio le repliche del gruppo di controllo dovranno essere lo
+stesso numero di quelle del gruppo per cui vogliamo monitorare lo stress ambientale
+e un gruppo sottoposto a stress ambientale sarà collegato ad al più un gruppo di
+controllo. (TRIGGER)
+● Se la scuola è finanziata da un progetto, si vuole memorizzare se la persona sia il
+referente e/o un partecipante al progetto da cui deriva il finanziamento. (TRIGGER)
+● Strumento(TipoStrumento) può essere “Arduino” o “Sensore”; (CHECK)
+● Pianta(Esposizione) può essere “Sole” o “Mezz’ombra” o “Ombra”; (CHECK)
+● Gruppo(Scopo) può essere “Fitobonifica” o “Biomonitoraggio”; (CHECK)
+● L’Inseritore in Rilevazione è presente solo se è una Persona diversa dal Rilevatore;
+(TRIGGER)
+● IdReplica identifica univocamente una specifica pianta all’interno del progetto
+● IdSensore identifica univocamente uno specifico sensore all’interno del progetto
+● IdGruppo identifica univocamente uno specifico gruppo all’interno del progetto
+● CodiceRilevazione identifica univocamente una rilevazione all’interno del progetto
+
+
+
+● PercFoglieDann deve essere un decimale fra 0 e 1
+● Umidità deve essere un numero decimale compreso fra 0 e 1, e PH è un decimale
+compreso tra 0 e 14.
+● CoordNord è un decimale compreso tra -90 e 90 e CoordSud un decimale compreso
+tra -180 e 180.
+● IdReplica deve rispettare la sintassi “XY” dove X è la lettera P e Y un numero intero
+● IdSensore deve rispettare la sintassi “XY” dove X è la lettera S e Y un numero intero
+● IdGruppo deve rispettare la sintassi “XY” dove X è la lettera G e Y un numero intero
+● CodiceRilevazione deve rispettare la sintassi “XY” dove X è la lettera R e Y un
+numero intero
+● Terreno può assumere valori “Vaso” o “Suolo”. (CHECK)
+
+
+
